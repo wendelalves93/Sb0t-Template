@@ -1,0 +1,30 @@
+
+Para instalar este template Visual Studio 2010 você deve localizar a pasta template.
+
+Isto é tipicamente algo como:
+
+..... Documentos \ Visual Studio 2010 \ Templates \ ProjectTemplates \ Visual C # \
+
+Depois de ter localizado a pasta, você deve copiar "Extensão para sb0t 5 server.zip" para essa pasta.
+
+é isso ! :-)
+
+
+
+Nota: Ao criar um novo projeto de extensão, muitas vezes é útil para construir o projeto em primeiro lugar, antes de começar a codificação. Isso irá garantir que o XML relevante, dll e outras dependências são copiados para as pastas corretas.
+
+Feliz codificação.
+
+
+desenvolvimento
+----------
+
+Quando você estiver implantando uma extensão para uso em sb0t, você deve criar uma pasta dentro do sb0t
+Pasta Extensões (localizado na pasta de dados).
+
+Por exemplo, se sua extensão é chamado HelloWorld, crie uma pasta chamada HelloWorld
+
+Copie o arquivo "extension.dll" para essa nova pasta HelloWorld.
+
+Em seguida, aperte o botão de atualização em sb0t na aba extensões.
+
